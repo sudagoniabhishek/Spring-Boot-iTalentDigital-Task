@@ -1,5 +1,5 @@
 //CSV file into a database
-package com.abhi.controller;
+package com.abhi.controller.csvtodb;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;

@@ -1,5 +1,5 @@
 //Spring Retry library
-package com.abhi.service;
+package com.abhi.service.retry;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.retry.annotation.Backoff;

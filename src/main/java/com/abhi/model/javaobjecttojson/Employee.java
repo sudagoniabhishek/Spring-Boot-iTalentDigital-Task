@@ -1,5 +1,5 @@
 //Java objects to JSON format
-package com.abhi.model;
+package com.abhi.model.javaobjecttojson;
 
 public class Employee {
 

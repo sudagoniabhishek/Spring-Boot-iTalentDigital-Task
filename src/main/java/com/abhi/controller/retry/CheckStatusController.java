@@ -1,5 +1,5 @@
 //Spring Retry library
-package com.abhi.controller;
+package com.abhi.controller.retry;
 
 
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CheckStatusController {
 
     @Autowired
-    private com.abhi.service.CheckStatusService checkStatusService;
+    private com.abhi.service.retry.CheckStatusService checkStatusService;
 
     @GetMapping("/check")
     public String checkStatus(@RequestParam(name = "tid") String trackingNumber) {

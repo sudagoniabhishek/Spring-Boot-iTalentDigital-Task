@@ -1,5 +1,5 @@
 // Flyway to manage database migrations
-package com.abhi.model;
+package com.abhi.model.flyway;
 
 
 

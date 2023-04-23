@@ -1,9 +1,9 @@
 // CSV file into a database
-package com.abhi.config;
+package com.abhi.config.csvtodb;
 
 
 
-import com.abhi.entity.Customer;
+import com.abhi.entity.csvtodb.Customer;
 import org.springframework.batch.item.ItemProcessor;
 
 public class CustomerProcessor implements ItemProcessor<Customer,Customer> {

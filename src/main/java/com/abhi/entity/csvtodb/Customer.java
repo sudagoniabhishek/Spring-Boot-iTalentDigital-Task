@@ -1,5 +1,5 @@
 //CSV file into a database
-package com.abhi.entity;
+package com.abhi.entity.csvtodb;
 
 
 

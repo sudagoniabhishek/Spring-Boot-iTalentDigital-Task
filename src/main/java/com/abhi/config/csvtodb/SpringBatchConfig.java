@@ -1,9 +1,9 @@
 //CSV file into a database
-package com.abhi.config;
+package com.abhi.config.csvtodb;
 
-import com.abhi.entity.Customer;
+import com.abhi.entity.csvtodb.Customer;
 
-import com.abhi.repository.CustomerRepository;
+import com.abhi.repository.csvtodb.CustomerRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -44,7 +44,7 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.core.task.TaskExecutor;
 
-import com.abhi.entity.Customer;
+import com.abhi.entity.csvtodb.Customer;
 @Configuration
 @EnableBatchProcessing
 @AllArgsConstructor
